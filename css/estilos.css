@@ -7,7 +7,6 @@
 
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -47,6 +46,7 @@ body {
 /* Nav */ 
 .nav__logo{
     width: 450px;
+    margin-left: auto;
     margin: 10px;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .nav__link {
-    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     display: grid;
     grid-auto-flow: column;
@@ -280,7 +280,7 @@ body {
     height: 100%;
     padding: 10px;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-self: center;
     margin-bottom: 10px;
@@ -302,7 +302,11 @@ body {
     color: #fff;
     justify-content: center;
     display:flex;
-    
+}
+.footer__newsletter2{
+    color: #fff;
+    justify-content: left;
+    display:flex;
 }
 
 .footer__container{
